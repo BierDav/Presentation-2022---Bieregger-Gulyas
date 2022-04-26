@@ -7,4 +7,17 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="WeirdStuff\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="WeirdStuff\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="WeirdStuff\**" />
+      <None Remove=".gitignore" />
+    </ItemGroup>
+
 </Project>
